@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+body {
+  background: #82ABCB;
+  padding: 0 20px;
+  min-width: 200px;
+}
+.task {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+
+
+}
+.task__inner {
+  border: 1px solid #E6E3D4;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.task__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  align-items: center;
+  border-bottom: 1px solid #E6E3D4;
+  background: #FFF7E4;
+
+}
+.task__title {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+}
+.task-header__icon-wrap {
+  display: flex;
+  align-items: center;
+}
+.task-header__icon-wrap .icon {
+      width: 14px;
+      height: 14px;
+      border-radius: 100%;
+      background: #FEB560;
+      color: #fff;
+      line-height: 16px;
+}
+.task__sum-score {
+  display: inline-block;
+  padding: 1px 7px;
+  background: #F2E3C9;
+  border-radius: 5px;
+  font-size: 11px;
+}
+.button-use {
+  text-align: left;
+}
+.task__main {
+  padding: 15px;
+  text-align: left;
+}
+.button-use__btn {
+  margin: 10px 0;
+  background: #AFAFAF;
+  border: none;
+  color: #000;
+}
+  .button-use__btn:hover,
+  .button-use__btn:active,
+  .button-use__btn:focus {
+    background: #878787;
+  }
+.task__footer {
+  border-top: 1px solid #E6E3D4;
+  padding: 10px 15px;
+}
+.button-test {
+  text-align: left;
+}
+.button-test__btn {
+  height: auto;
+  padding: 5px 10px;
+  font-size: 10px;
+}
+.button-test__title {
+  display: block;
+  margin-bottom: 3px;
+}
+.button-test__text {
+
+}
