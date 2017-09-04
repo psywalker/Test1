@@ -23,9 +23,10 @@
   to { transform: rotate(360deg); }
 }
 body {
-  background: #82ABCB;
+  background: red;
   padding: 0 20px;
   min-width: 200px;
+
 }
 .task {
   background: #fff;
